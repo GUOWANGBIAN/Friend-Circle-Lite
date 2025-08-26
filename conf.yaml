@@ -50,7 +50,7 @@ rss_subscribe:
 #   port：              SMTP 端口号
 #   use_tls：           是否使用 tls 加密
 smtp:
-  email: notify@liushen.fun
+  email: admin@mrguo.icu
   server: smtp.exmail.qq.com
   port: 465
   use_tls: true
@@ -60,7 +60,7 @@ smtp:
 #   name:               友链名称
 #   url:                指定的RSS地址
 specific_RSS:
-   - name: "阮一峰"
-     url: "http://feeds.feedburner.com/ruanyifeng"
+   - name: "GGGuoshifu の Blog"
+     url: "https://blog.mrguo.icu/rss.xml"
   # - name: "無名小栈"
   #   url: "https://blog.imsyy.top/rss.xml"
